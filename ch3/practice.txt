@@ -1,0 +1,18 @@
+1- initialize a string in 6 different ways commenting each method
+2- write a C++ program that reads string until EOF
+3- write a C++ program that reads lines except empty lines, including spaces
+4- write a C++ program that read an input at a time and print lines that are
+longer than 80 characters.
+5- wirte a C++ program that compare these strings together `Hello`,
+`Hello World`, `Hiya`.
+6- write a C++ program that add 2 strings (concatenate them)?
+7- write a C++ program that prints each character in a string("some string")
+on a line?
+8- write a C++ program that counts how many punctuations chars in a string?
+9- write a C++ program that convert each character in a given text to uppercase?
+9- write a C++ program that convert each character in a given text to lowercase?
+10- write a C++ program that prints the first character in a string?
+11- write a C++ program that capitalize the first character in a string?
+12- write a C++ program that capitalize the first word in the string?
+13- you have numbers between 0 and 15, and you want. write a C++ program that
+generate the hexadecimal representation of that number.
