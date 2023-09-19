@@ -11,3 +11,10 @@ printing the swapped values
 8- Write a function that compare the length of two strings
 $9- Write the function find_char that will return the position of the first occurrence of
 a given character in a string, and also count how many times the character occurs?
+$10- use the find_char function inside the is_sentence function to find out if the current
+string is a sentence 'ends with a .' or not?
+$11- Write a C++ function print that prints an array of characters using the old c style (use pointer)
+$12- Write a C++ function print that prints an array using the std conventions?
+$13- Write a C++ function print that prints an array by direclty passing size parameter?
+14- Write function 'print' that use reference to an array to print it?
+15- create print function that prints a multi-dimensional array (array of arrays)?
