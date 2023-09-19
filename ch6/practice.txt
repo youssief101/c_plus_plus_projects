@@ -1,0 +1,13 @@
+1- Write a function that determine the factorial of a given number using iteration
+2- Write a function that defines a static object that's used to print 1 to 10 inclusive
+3- Write a function that defines a static object that's used to print 0 to 10 inclusive
+4- Write 3 files, one of them declares the function isPrime in myFunction.h to find if the
+number is a prime number or not, then define that function in a file called source.cpp,
+then use that function in a file called main.cpp
+5- Write a function that points to a specific variable and reset its value
+6- Write a function to swap the values of two ints. test the function by calling it and
+printing the swapped values
+7- Write a function to reset a specific value using reference
+8- Write a function that compare the length of two strings
+$9- Write the function find_char that will return the position of the first occurrence of
+a given character in a string, and also count how many times the character occurs?
