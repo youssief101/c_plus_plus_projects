@@ -1,7 +1,0 @@
-#include <iostream>
-#include "myFunction.h"
-
-int main() {
-  
-  return 0;
-}
