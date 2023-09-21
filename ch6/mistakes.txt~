@@ -1,0 +1,15 @@
+1- in question:
+Write a function that defines a static object that's used to print 1 to 10 inclusive
+
+instead of using the data type size_t I used the data type int as the function return
+data type, also I used int instead of size_t in the for loop header
+
+mistake
+int countCalls() {
+correction
+size_t countCalls() {
+
+mistake
+for (int i = 0; i < 10; ++i)
+correction
+for (size_t i = 0; i < 10; ++i)

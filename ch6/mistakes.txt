@@ -1,0 +1,88 @@
+1- in question:
+Write a function that defines a static object that's used to print 1 to 10 inclusive
+
+instead of using the data type size_t I used the data type int as the function return
+data type, also I used int instead of size_t in the for loop header
+
+mistake
+int countCalls() {
+correction
+size_t countCalls() {
+
+mistake
+for (int i = 0; i < 10; ++i)
+correction
+for (size_t i = 0; i < 10; ++i)
+
+2- in question:
+Write 3 files, one of them declares the function isPrime in myFunction.h to find if the
+number is a prime number or not, then define that function in a file called source.cpp,
+
+in the file myFunction.h I forgot the semi colon in the end of the function isPrime
+declaration
+
+3- in question:
+Write a function that compare the length of two strings:
+It's not necessary to write all these lines:
+  if (s1.size() < s2.size())
+    return true;
+  else
+    return false;
+instead you can only write:
+  return (s1.size() < s2.size());
+4- In this question:
+use the find_char function inside the is_sentence function to find out if the current
+string is a sentence 'ends with a .' or not?
+1- instead of using string::size_type as the return type of the function, and the data type
+for the counter I used size_t
+mistake:
+size_t findChar(const string &w, char c, size_t &counter) {
+correction:
+string::size_type find_char(const string &s, char c, string::size_type &ctr) {
+
+
+2- Instead of using decltype(ret), and let the compiler decide the type of the iterator I used
+size_t
+mistake:
+  for (size_t i = 0; i < w.size(); ++i) {
+correction:
+  for (decltype(ret) i = 0; i != s.size(); ++i) {
+mistake:
+I missed to create counter as a reference and declare it as copy of the counter of the main
+loop which returned zero each time when I asked for the number of repeatitions
+
+mistake:
+I used size_t instead of string::size_type to declare, and define the position of the
+first occurence of the character
+
+5- In this question:
+Use the find_char function inside the is_sentence function to find out if the current
+string is a sentence 'ends with a .' or not?
+
+Instead of using '==' I used '=' which lead to an errorL lvalue required:
+mistake:
+  return (findChar(line, '.', occurence) = line.size() - 1) && occurence == 1;
+correction:
+  return (findChar(line, '.', occurence) == line.size() - 1) && occurence == 1;
+
+$6 (you've to review this question)
+$11- Write a C++ function print that prints an array of characters using the old c style (use pointer)
+$7 (you've to review this question)
+$12- Write a C++ function print that prints an array using the std conventions?
+8- In this question:
+Write a C++ function print that prints an array by direclty passing size parameter?
+Instead of passing an array using const int ia[], I used a reference to the array
+mistake:
+  void print(int (&arrRef)[], const int size) {
+correction:
+  void print(const int ia[], size_t size) {
+also I used const int size, instead of size_t
+
+9- In this question:
+14- Write function 'print' that use reference to an array to print it?
+I missed to make it clear how many element inside the reference to the array so it
+can't used the range-based for
+mistake:
+  void print(int (&arrRef)[]) {
+correction:
+  void print(int (&arrRef)[4]) {
