@@ -1,0 +1,67 @@
+1- in this question:
+7- write a C++ program that prints each character in a string("some string")
+on a line?
+
+instead of using the method size() for the string, we may use the range based for loop
+to loop on each character in the string
+mistake:
+  for (int i = 0; i != word.size(); ++i)
+    cout << word[i] << endl;
+correction:
+  for (auto c : word)
+    cout << c << endl;
+    
+2- In this question:
+9- write a C++ program that convert each character in a given text to uppercase?
+I missed to initialize c as a reference so that it changes each character in the string,
+also I missed the function toupper() that return the uppercase of a given character
+int main() {
+  string word = "some string";
+  for (auto c : word)
+In this question:
+10- write a C++ program that prints the first character in a string?
+you didn't check if the string is empty and its crucial because trying to access an empty
+string for a specific character has an undefined behavior
+mistake:
+  string word = "some string";
+  cout << word[0] << endl;
+correction:
+  if (!word.empty())
+    cout << word[0] << endl;
+
+3- In this question:
+11- write a C++ program that capitalize the first character in a string?
+you didn't include the cctype header, also you didn't check for the empty string again:
+mistake:
+#include <iostream>
+#include <string>
+
+  str[0] = toupper(str[0]);
+correction:
+#include <cctype>
+
+  if (!str.empty())
+    str[0] = toupper(str[0]);
+    
+4- 12- write a C++ program that capitalize the first word in the string? (you need to review this question)
+
+In this question:
+$13- you have numbers between 0 and 15, and you want. write a C++ program that
+generate the hexadecimal representation of that number.
+you used the data type int instead of string::size_type
+mistake:
+  int dig;
+correction:
+  string::size_type n; // hold numbers from the input
+also you use the wrong comparison, you used:
+mistake:
+    if (dig >= 0 && dig <= 15)
+correction:
+    if (n < hexdigits.size()) // ignore invalid input
+also you printed each converted character immidelately while in the program it concatenated
+that character in the str
+mistake:
+      cout << eqHex[dig] << " ";
+correction:
+      result += hexdigits[n]; // fetch the indicated hex digit
+      

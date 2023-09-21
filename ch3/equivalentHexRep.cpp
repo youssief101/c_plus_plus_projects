@@ -11,6 +11,6 @@ int main() {
   while (cin >> n)
     if (n < hexdigits.size()) // ignore invalid input
       result += hexdigits[n]; // fetch the indicated hex digit
-  cout << "you hex number is: " << result << endl;
+  cout << "your hex number is: " << result << endl;
   return 0;
 }

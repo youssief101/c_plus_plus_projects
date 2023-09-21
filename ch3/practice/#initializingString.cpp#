@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+  string s1; // empty string
+  string s2 = "youssef"; // copy initialization
+  string s3("mohamed"); // direct initialization
+  string s4 = s2;
+  return 0;
+}
