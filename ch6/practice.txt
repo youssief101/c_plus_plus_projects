@@ -5,16 +5,16 @@
 number is a prime number or not, then define that function in a file called source.cpp,
 then use that function in a file called main.cpp
 5- Write a function that points to a specific variable and reset its value
-6- Write a function to swap the values of two ints. test the function by calling it and
+#6- Write a function to swap the values of two ints. test the function by calling it and
 printing the swapped values
-7- Write a function to reset a specific value using reference
-8- Write a function that compare the length of two strings
-$9- Write the function find_char that will return the position of the first occurrence of
+#7- Write a function to reset a specific value using reference
+#8- Write a function that compare the length of two strings
+#$9- Write the function find_char that will return the position of the first occurrence of
 a given character in a string, and also count how many times the character occurs?
-$10- use the find_char function inside the is_sentence function to find out if the current
+#$10- use the find_char function inside the is_sentence function to find out if the current
 string is a sentence 'ends with a .' or not?
-$11- Write a C++ function print that prints an array of characters using the old c style (use pointer)
-$12- Write a C++ function print that prints an array using the std conventions?
-$13- Write a C++ function print that prints an array by direclty passing size parameter?
-14- Write function 'print' that use reference to an array to print it?
+#$11- Write a C++ function print that prints an array of characters using the old c style (use pointer)
+#$12- Write a C++ function print that prints an array using the std conventions?
+#$13- Write a C++ function print that prints an array by direclty passing size parameter?
+#14- Write function 'print' that use reference to an array to print it?
 15- create print function that prints a multi-dimensional array (array of arrays)?
