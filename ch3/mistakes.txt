@@ -65,3 +65,25 @@ mistake:
 correction:
       result += hexdigits[n]; // fetch the indicated hex digit
       
+===============================================================================================
+in this question:
+19- create a C++ program that count how many grades fall into various clusters of 10
+input: 42, 65, 95, 100, 39, 67, 95, 76, 88, 76, 83, 92, 76, 93
+output: 0, 0, 0, 1, 1, 0, 2, 3, 2, 4, 1?
+
+I used a useless if statement
+mistake:
+while (cin >> grade) {
+    if (grade < 10)
+      ++clusters[0];
+    else
+      ++clusters[grade / 10];
+  }
+correction:
+while (cin >> grade) {
+    if (grade <= 100)
+      ++cluster[grade / 10];
+  }
+
+Review this question:
+25- Write a C++ program that print each line in text up to the first blank line
