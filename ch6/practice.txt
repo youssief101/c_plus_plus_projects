@@ -26,7 +26,8 @@ program that has an explicit return?
 18- Write a function that, given a counter, and a word and an ending, gives back the plural version of the
 word if the counter is greater than 1?
 19- Create a function that returns a reference to the shorter of its two strings ?
-20- Create a function that assign to the result of a function that returns a reference to nonCosnt?
+20- create a function that changes the first character to anything you want in a string but by assigning to
+a function that return a reference to that charcter?
 21- create a C++ program that has non-void function that return values machine that we can use to indicate
 success or failure?
 22- We have created a function factorial() that return the factorial of a given number using iteration, try
@@ -42,5 +43,5 @@ ten integers? == repeat exercise 26 using trailing return type?
 even?
 29- Write the delcaration for a function that returns a reference to an array of ten strings without using either
 a trailing return, decltype, or a type alias?
-30- write three additional declarations for the function in the previous excericise. One should use a type alas
+30- write three additional declarations for the function in the previous exercise. One should use a type alias
 one should use a trailing return, and the third should use decltype, which form do you prefer and why?
