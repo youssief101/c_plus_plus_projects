@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+// Function that returns a pointer to an array of 5 integers
+int (*ptoarr())[5] {
+  static int arr[5] = {1, 2, 3, 4, 5};
+  return &arr;
+}
+
+int main() {
+  int arr[5];
+  arr[5] = *ptoarr;
+  for (auto i : arr)
+    cout << i << " ";
+  cout << endl;
+  return 0;
+}

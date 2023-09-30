@@ -18,3 +18,29 @@ string is a sentence 'ends with a .' or not?
 #$13- Write a C++ function print that prints an array by direclty passing size parameter?
 #14- Write function 'print' that use reference to an array to print it?
 15- create print function that prints a multi-dimensional array (array of arrays)?
+=========================================================================================================
+16- create a program that check if the user has the a valid command line argument of the program cmd.cpp
+the program has the arguments -v or --verbose, -c or --count, -i or --input?
+17- last time you've created swap function but you didn't encounter if v1, and v2 are equals, create a C++
+program that has an explicit return?
+18- Write a function that, given a counter, and a word and an ending, gives back the plural version of the
+word if the counter is greater than 1?
+19- Create a function that returns a reference to the shorter of its two strings ?
+20- Create a function that assign to the result of a function that returns a reference to nonCosnt?
+21- create a C++ program that has non-void function that return values machine that we can use to indicate
+success or failure?
+22- We have created a function factorial() that return the factorial of a given number using iteration, try
+to create the function fact() using the recursion instead of iteration?
+23- use type alias typedef to create an array of ten ints arrT?
+24- use type alias using to create an array of ten ints arrT?
+25- Create a function that return a pointer to an array? and print that array in that function?
+26- Create a pointer to an array in 4 different method, 1- normal in main, 2- using function, 3- using
+trailing return type, 4- using decltype?
+27- Create func -that is- a function takes an integer as a parameter, and returns a pointer to an array of
+ten integers? == repeat exercise 26 using trailing return type?
+28- (very good question) create a C++ program that has function arrPtr that decide which array to point to odd, or
+even?
+29- Write the delcaration for a function that returns a reference to an array of ten strings without using either
+a trailing return, decltype, or a type alias?
+30- write three additional declarations for the function in the previous excericise. One should use a type alas
+one should use a trailing return, and the third should use decltype, which form do you prefer and why?
