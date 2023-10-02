@@ -1,3 +1,0 @@
-void givenNameID(int index, int (&refToID)[], int &uniqueID) {
-  refToID[i] = ++uniqueID;
-}
