@@ -53,7 +53,7 @@ int getUserChoice3() {
 
     cin >> ret;
     
-    if (ret >= 0 && ret <= 3)
+    if (ret >= 5 && ret <= 7)
       return ret;
     else
       cerr << "Invalid Input, try again ..." << endl;
