@@ -1,8 +1,0 @@
-#ifndef GLOBALS_H
-#define GLOBALS_H
-
-extern const int MAX_USERS;                 // maximum number of users program can hold
-extern string subscribers_names[MAX_USERS]; // array that holds the users names
-extern int subscribers_id[MAX_USERS];       // array that holds the users IDs
-
-#endif
