@@ -70,13 +70,7 @@ int main() {
     }
     case 3: {
       int third_user_choice = getUserChoice3();
-      cout << "User is NOT subscribing!"
-	   << "\nChoose a ticket to travel as a guest:"
-	   << "\n5- Second class ticket: 50 L.E"
-	   << "\n6- First class ticket: 100 L.E"
-	   << "\n7- VIP special ticket: 150 L.E"
-	   << "\nOr choose 0 to add him to the system" << endl;
-
+      
 	switch (third_user_choice) {
 	case 5:
 	case 6:
