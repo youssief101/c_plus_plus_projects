@@ -78,9 +78,9 @@ int main() {
 	   << "\nOr choose 0 to add him to the system" << endl;
 
 	switch (third_user_choice) {
-	case 1:
-	case 2:
-	case 3:
+	case 5:
+	case 6:
+	case 7:
 	  cout << "Successful operation" << endl;
 	  break;
 	case 0: {
