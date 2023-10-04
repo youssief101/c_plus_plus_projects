@@ -1,14 +1,21 @@
-#ifndef MYFUNCTION_H
-#define MYFUNCTION_H
+#ifndef MYFUNCTIONS_H
+#define MYFUNCTIONS_H
 
+#include <iostream>
 #include <string>
+#include <random>
+
 using namespace std;
 
+int getUserChoice();
+int getUserChoice2();
+int getUserChoice3();
+int getNumSubs();
+string getUserName();
 bool isValidName(string str);
-bool isReg(string str, string (&refToSubs)[], int size);
-bool isReg(string str, string (&refToSubs)[], int size, int &refToIndex);
-void giveID(int index, int (&refToIDs)[]);
-bool checkUserID(int (&refToIDs)[], int index, int givenID);
-void addUserToSystem(string str, string (&refToSubs)[], int (&refToIDs)[], int size);
+bool isExistName(string str);
+int addUserToSystem(string str);
+int generateRandomID();
+bool isExistName(string str, int &refToactualId);
 
 #endif
